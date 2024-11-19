@@ -50,7 +50,6 @@ header {
     top: 0; left: 0; bottom: 0; right: 0;
     padding-top: 5rem;
     border-right: solid 1px #8a8a8a;
-
 }
 
 
@@ -79,5 +78,28 @@ header {
     border-left: solid #000000 thick;
     border-radius: 2px;
     width: 33ch;
-    padding: 20px 20px;
+    padding: 20px 30px;
+    /*  */
+    margin: 10px;
+    font-size: 0.8rem;
+    color: #b1b1b1;
 }
+
+#title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #D1D1D1;
+
+}
+.action-btns {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.action-btns > button {
+    padding: 4px 8px;
+}
+#bookmark {color: rgb(135, 91, 166);}
+#star {color: chocolate;}
