@@ -99,7 +99,30 @@ header {
     justify-content: space-evenly;
 }
 .action-btns > button {
+    font-size: 1rem;
     padding: 4px 8px;
+    background-color: transparent;
+    border: none;
+}
+.action-btns > button :hover {
+    opacity: 0.5;
 }
 #bookmark {color: rgb(135, 91, 166);}
 #star {color: chocolate;}
+
+
+#add {
+    position: absolute;
+    border: none;
+    right: 60px;
+    bottom: 60px;
+    padding: 10px 24px;
+    border-radius: 6px;
+    background-color: #6E6E6E;
+    color: #303030;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+#add:hover {
+    background-color: #656565;
+}
